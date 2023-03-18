@@ -1,0 +1,5 @@
+<ul class="card-list">
+          <input class="card" placeholder="Task1" />
+          <input class="card" />
+          <input class="card" />
+        </ul>
