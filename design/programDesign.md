@@ -8,9 +8,10 @@
 
 # FUNCTIONS
 
-- [ ] addCard
-  - [ ] create card
+- [x] addCard
+  - [x] create card
 - [ ] addTask
+  - [ ] inputNoEdit
 - [ ] deleteCard
 - [ ] editTask
 

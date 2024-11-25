@@ -5,28 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trello from Wish.com</title>
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="style.css" />
-    <script type="module" src="definitions.js"></script>
-    <script type="module" src="main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script type="module" src="assets/js/definitions.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
   </head>
   <body>
-    <main class="main">
-      <div class="col--state">
-        <h2 class="heading--sec">Not Started</h2>
-        <ul class="list--card list--card-not"></ul>
-        <button class="btn--add btn--add-not">+Add</button>
-      </div>
-      <div class="col--state">
-        <h2 class="heading--sec">In Progress</h2>
-        <ul class="list--card list--card-prog"></ul>
-        <button class="btn--add btn--add-prog">+Add</button>
-      </div>
-      <div class="col--state">
-        <h2 class="heading--sec">Completed</h2>
-        <ul class="list--card list--card-comp"></ul>
-        <button class="btn--add btn--add-comp">+Add</button>
-      </div>
-    </main>
+    <div class="container">
+      <h1 class="heading--prim">Trello from Wish.com</h1>
+      <main class="main">
+        <div class="col--state">
+          <h2 class="heading--sec">Not Started</h2>
+          <ul id="list--card-not" class="list--card list--card-not"></ul>
+          <button class="btn--add btn--add-not">+Add</button>
+        </div>
+        <div class="col--state">
+          <h2 class="heading--sec">In Progress</h2>
+          <ul id="list--card-prog" class="list--card list--card-prog"></ul>
+          <button class="btn--add btn--add-prog">+Add</button>
+        </div>
+        <div class="col--state">
+          <h2 class="heading--sec">Completed</h2>
+          <ul id="list--card-comp" class="list--card list--card-comp"></ul>
+          <button class="btn--add btn--add-comp">+Add</button>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
